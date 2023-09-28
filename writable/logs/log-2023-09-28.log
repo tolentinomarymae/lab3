@@ -1,0 +1,14 @@
+CRITICAL - 2023-09-28 11:19:30 --> Invalid file: "/inc/script.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/inc/script.php')
+ 2 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('/inc/script', null, true)
+ 3 APPPATH\Views\index.php(5): CodeIgniter\View\View->include('/inc/script')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lab3\\app\\Views\\index.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 7 APPPATH\Controllers\MainController.php(11): view('index')
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab3\\public\\index.php')
