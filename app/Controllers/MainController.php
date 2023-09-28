@@ -6,9 +6,17 @@ use App\Controllers\BaseController;
 
 class MainController extends BaseController
 {
+    private $product;
+    public function __construct()
+    {
+        $this->product = new \App\Models\MainModel();
+    }
     public function index()
     {
-        return view ('index');
+        $data = [
+            'products' => $this -> product->findAll()
+        ];
+        return view ('index', $data);
     }
     
 }
