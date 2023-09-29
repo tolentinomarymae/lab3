@@ -18,5 +18,11 @@ class MainController extends BaseController
         ];
         return view ('index', $data);
     }
+    public function shop(){
+        $data = [
+            'products' => $this -> product->findAll()
+        ];
+        return view ('products', $data);
+    }
     
 }
