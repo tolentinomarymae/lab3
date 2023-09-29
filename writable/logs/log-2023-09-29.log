@@ -12,3 +12,27 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
 10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab3\\public\\index.php')
+CRITICAL - 2023-09-29 12:56:56 --> Invalid file: "admin/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 3 APPPATH\Controllers\AdminController.php(11): view('admin/index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab3\\public\\index.php')
+CRITICAL - 2023-09-29 13:15:27 --> Invalid file: "main/inc/navbar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main/inc/navbar.php')
+ 2 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('main/inc/navbar', null, true)
+ 3 APPPATH\Views\admin\inc\index.php(4): CodeIgniter\View\View->include('main/inc/navbar')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lab3\\app\\Views\\admin\\inc\\index.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/inc/index', [], true)
+ 7 APPPATH\Controllers\AdminController.php(11): view('admin/inc/index')
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->admin()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab3\\public\\index.php')
