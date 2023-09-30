@@ -20,14 +20,14 @@
 									
 								</li>
 								<li><a href="/shop">Shop</a></li>
-								<li><a href="#">Pages</a>
-									
-								</li>
-								<li><a href="#">News</a>
-									
-								</li>
-								<li><a href="#">Contact</a></li>
 								<li><a href="#">About</a>
+									
+								</li>
+								<li><a href="#">Contact</a>
+									
+								</li>
+								<li><a href="/login">Login</a></li>
+								<li><a href="/register">Register</a>
 									
 								</li>
 								<li>
