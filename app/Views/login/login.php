@@ -11,7 +11,7 @@
 			</div>
 			<div class="signin-form">
 				<h2 class="form-title">Log In</h2>
-				<form method="post" action="<?=base_url()?>login" class="register-form" id="login-form">
+				<form method="post" action="<?=base_url()?>admins" class="register-form" id="login-form">
 					<div class="form-group">
 						<label for="username"><i class="zmdi zmdi-account material-icons-name"></i></label>
 						<input type="text" name="username" id="username" placeholder="Username" />

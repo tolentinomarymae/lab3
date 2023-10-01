@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="zxx">
-
-<!-- Mirrored from demo.dashboardpack.com/analytic-html/index_3.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Sep 2023 12:23:47 GMT -->
 <head>
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <title>Admin</title>
 <link rel="icon" href="<?= base_url()?>img/logo.png" type="image/png">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" href="<?= base_url()?>admin/css/bootstrap1.min.css" />
 
@@ -47,8 +47,8 @@
 
 <nav class="sidebar dark_sidebar  ">
 <div class="logo d-flex justify-content-between">
-<a class="large_logo" href="index.html"><img src="img/logo.png" alt></a>
-<a class="small_logo" href="index.html"><img src="img/mini_logo.png" alt></a>
+<a class="large_logo" href="/"><img src="<?= base_url()?>img/logo.png" alt></a>
+<a class="small_logo" href="/"><img src="<?= base_url()?>img/mini_logo.png" alt></a>
 <div class="sidebar_close_icon d-lg-none">
 <i class="ti-close"></i>
 </div>
@@ -57,7 +57,7 @@
 <li>
 <a href="index.html" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/dashboard.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/dashboard.svg" alt>
 </div>
 <div class="nav_title">
 <span>Analytic</span>
@@ -67,7 +67,7 @@
 <li>
 <a href="index_2.html" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/2.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/2.svg" alt>
 </div>
 <div class="nav_title">
 <span>Default </span>
@@ -77,7 +77,7 @@
 <li>
 <a href="index_3.html" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/3.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/3.svg" alt>
 </div>
 <div class="nav_title">
 <span>Dark </span>
@@ -88,7 +88,7 @@
 <li class>
 <a class="has-arrow" href="#" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/5.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/5.svg" alt>
 </div>
 <div class="nav_title">
 <span>Application </span>
@@ -104,7 +104,7 @@
 <li class>
 <a class="has-arrow" href="#" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/16.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/16.svg" alt>
 </div>
 <div class="nav_title">
 <span>Pages</span>
@@ -123,7 +123,7 @@
 <li class>
 <a class="has-arrow" href="#" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/4.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/4.svg" alt>
 </div>
 <div class="nav_title">
 <span>Themes</span>
@@ -137,7 +137,7 @@
 <li class>
 <a class="has-arrow" href="#" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/16.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/16.svg" alt>
 </div>
 <div class="nav_title">
 <span>General</span>
@@ -152,7 +152,7 @@
 <li>
 <a href="Builder.html" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/2.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/2.svg" alt>
 </div>
 <div class="nav_title">
 <span>Builder </span>
@@ -163,7 +163,7 @@
 <li class>
 <a href="invoice.html" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/6.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/6.svg" alt>
 </div>
 <div class="nav_title">
 <span>Invoice</span>
@@ -173,7 +173,7 @@
 <li class>
 <a class="has-arrow" href="#" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/4.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/4.svg" alt>
 </div>
 <div class="nav_title">
 <span>forms</span>
@@ -189,7 +189,7 @@
 <li class>
 <a href="Board.html" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/5.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/5.svg" alt>
 </div>
 <div class="nav_title">
 <span>Board</span>
@@ -199,7 +199,7 @@
 <li class>
 <a href="calender.html" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/7.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/7.svg" alt>
 </div>
 <div class="nav_title">
 <span>Calander</span>
@@ -209,7 +209,7 @@
 <li class>
 <a class="has-arrow" href="#" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/8.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/8.svg" alt>
 </div>
 <div class="nav_title">
 <span>Products</span>
@@ -225,7 +225,7 @@
 <li class>
 <a class="has-arrow" href="#" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/9.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/9.svg" alt>
 </div>
 <div class="nav_title">
 <span>Icons</span>
@@ -240,7 +240,7 @@
 <li class>
 <a class="has-arrow" href="#" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/8.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/8.svg" alt>
 </div>
 <div class="nav_title">
 <span>Animations</span>
@@ -255,7 +255,7 @@
 <li class>
 <a class="has-arrow" href="#" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/9.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/9.svg" alt>
 </div>
 <div class="nav_title">
 <span>Components</span>
@@ -272,7 +272,7 @@
 <li class>
 <a class="has-arrow" href="#" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/11.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/11.svg" alt>
 </div>
 <div class="nav_title">
 <span>Table</span>
@@ -286,7 +286,7 @@
 <li class>
 <a class="has-arrow" href="#" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/12.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/12.svg" alt>
 </div>
 <div class="nav_title">
 <span>Cards</span>
@@ -301,7 +301,7 @@
 <li class>
 <a class="has-arrow" href="#" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/12.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/12.svg" alt>
 </div>
 <div class="nav_title">
 <span>Charts</span>
@@ -318,7 +318,7 @@
 <li class>
 <a class="has-arrow" href="#" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/3.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/3.svg" alt>
 </div>
 <div class="nav_title">
 <span>UI Kits </span>
@@ -340,7 +340,7 @@
 <li class>
 <a class="has-arrow" href="#" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/14.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/14.svg" alt>
 </div>
 <div class="nav_title">
 <span>Widgets</span>
@@ -354,7 +354,7 @@
 <li class>
 <a class="has-arrow" href="#" aria-expanded="false">
 <div class="nav_icon_small">
-<img src="admin/img/menu-icon/15.svg" alt>
+<img src="<?= base_url()?>admin/img/menu-icon/15.svg" alt>
 </div>
 <div class="nav_title">
 <span>Maps</span>
@@ -400,7 +400,7 @@
 </div>
 </li>
 <li>
-<a class="bell_notification_clicker" href="#"> <img src="admin/img/icon/bell.svg" alt>
+<a class="bell_notification_clicker" href="#"> <img src="<?= base_url()?>admin/img/icon/bell.svg" alt>
 <span>2</span>
 </a>
 
@@ -408,11 +408,11 @@
 
 </li>
 <li>
-<a class="CHATBOX_open" href="#"> <img src="admin/img/icon/msg.svg" alt> <span>2</span> </a>
+<a class="CHATBOX_open" href="#"> <img src="<?= base_url()?>admin/img/icon/msg.svg" alt> <span>2</span> </a>
 </li>
 </div>
 <div class="profile_info">
-<img src="admin/img/me.jpg" alt="#">
+<img src="<?= base_url()?>admin/img/me.jpg" alt="#">
 <div class="profile_info_iner">
 <div class="profile_author_name">
 <p>Owner</p>
@@ -493,127 +493,90 @@ action
 </form>
 </div>
 </div>
+<!-- Add New Button -->
+
 <div class="add_button ms-2">
-<a href="#" data-bs-toggle="modal" data-bs-target="#addcategory" class="btn_1">Add New</a>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addProductModal" autofocus>Add Product</button>
+
 </div>
+<!-- Add Product Modal -->
+<div class="modal fade" id="addProductModal" role="dialog" aria-labelledby="addProductModalLabel" aria-hidden="true" >
+    <br><br><br><br><br>
+  <div class="modal-dialog"style="z-index: 10000;">
+  
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addProductModalLabel">Add New Product</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <form action="/products/store" method="post">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" name="name" id="name" class="form-control">
+          </div>
+
+          <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea name="description" id="description" class="form-control"></textarea>
+          </div>
+
+          <div class="mb-3">
+            <label for="price" class="form-label">Price</label>
+            <input type="number" name="price" id="price" class="form-control">
+          </div>
+
+          <div class="mb-3">
+            <label for="image" class="form-label">Image</label>
+            <input type="file" name="image" id="image" class="form-control">
+          </div>
+          <div class="mb-3">
+            <label for="category" class="form-label">Category</label>
+            <input type="text" name="category" id="category" class="form-control">
+          </div>
+          <div class="mb-3">
+            <label for="quantity" class="form-label">Quantity</label>
+            <input type="number" name="quantity" id="quantity" class="form-control">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
 </div>
 </div>
 <div class="QA_table mb_30">
-
-<table class="table lms_table_active ">
-<thead>
-<tr>
-<th scope="col">title</th>
-<th scope="col">Category</th>
-<th scope="col">Teacher</th>
-<th scope="col">Lesson</th>
-<th scope="col">Enrolled</th>
-<th scope="col">Price</th>
-<th scope="col">Status</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
-<td>Category name</td>
-<td>Teacher James</td>
-<td>Lessons name</td>
-<td>16</td>
-<td>$25.00</td>
-<td><a href="#" class="status_btn">Active</a></td>
-</tr>
-<tr>
-<th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
-<td>Category name</td>
-<td>Teacher James</td>
-<td>Lessons name</td>
-<td>16</td>
-<td>$25.00</td>
-<td><a href="#" class="status_btn">Active</a></td>
-</tr>
-<tr>
-<th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
-<td>Category name</td>
-<td>Teacher James</td>
-<td>Lessons name</td>
-<td>16</td>
-<td>$25.00</td>
-<td><a href="#" class="status_btn">Active</a></td>
-</tr>
-<tr>
-<th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
-<td>Category name</td>
-<td>Teacher James</td>
-<td>Lessons name</td>
-<td>16</td>
-<td>$25.00</td>
-<td><a href="#" class="status_btn">Active</a></td>
-</tr>
-<tr>
-<th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
-<td>Category name</td>
-<td>Teacher James</td>
-<td>Lessons name</td>
-<td>16</td>
-<td>$25.00</td>
-<td><a href="#" class="status_btn">Active</a></td>
-</tr>
-<tr>
-<th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
-<td>Category name</td>
-<td>Teacher James</td>
-<td>Lessons name</td>
-<td>16</td>
-<td>$25.00</td>
-<td><a href="#" class="status_btn">Active</a></td>
-</tr>
-<tr>
-<th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
-<td>Category name</td>
-<td>Teacher James</td>
-<td>Lessons name</td>
-<td>16</td>
-<td>$25.00</td>
-<td><a href="#" class="status_btn">Active</a></td>
-</tr>
-<tr>
-<th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
-<td>Category name</td>
-<td>Teacher James</td>
-<td>Lessons name</td>
-<td>16</td>
-<td>$25.00</td>
-<td><a href="#" class="status_btn">Active</a></td>
-</tr>
-<tr>
-<th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
-<td>Category name</td>
-<td>Teacher James</td>
-<td>Lessons name</td>
-<td>16</td>
-<td>$25.00</td>
-<td><a href="#" class="status_btn">Active</a></td>
-</tr>
-<tr>
-<th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
-<td>Category name</td>
-<td>Teacher James</td>
-<td>Lessons name</td>
-<td>16</td>
-<td>$25.00</td>
-<td><a href="#" class="status_btn">Active</a></td>
-</tr>
-<tr>
-<th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
-<td>Category name</td>
-<td>Teacher James</td>
-<td>Lessons name</td>
-<td>16</td>
-<td>$25.00</td>
-<td><a href="#" class="status_btn">Active</a></td>
-</tr>
-</tbody>
-</table>
+    <table class="table lms_table_active">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Image</th>
+                <th scope="col">Price</th>
+                <th scope="col">Category</th>
+                <th scope="col">Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($products as $product): ?>
+                <tr>
+                    <td><?= $product['name']; ?></td>
+                    <td><?= $product['description']; ?></td>
+                    <td><?= $product['image']; ?></td>
+                    <td><?= $product['price']; ?></td>
+                    <td><?= $product['category']; ?></td>
+                    <td><?= $product['quantity']; ?></td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
 </div>
 </div>
 </div>
@@ -624,66 +587,74 @@ action
 </div>
 </div>
 </div>
+<script>
+$(document).ready(function() {
+  $('#addProductModal').on('show.bs.modal', function() {
+   
+    $('#name').val('');
+    $('#description').val('');
+    $('#price').val('');
+    $('#image').val('');
+  });
+});
+</script>
+<script src="<?= base_url()?>admin/js/jquery1-3.4.1.min.js"></script>
 
-<script src="admin/js/jquery1-3.4.1.min.js"></script>
+<script src="<?= base_url()?>admin/js/popper1.min.js"></script>
 
-<script src="admin/js/popper1.min.js"></script>
+<script src="<?= base_url()?>admin/js/bootstrap1.min.js"></script>
 
-<script src="admin/js/bootstrap1.min.js"></script>
+<script src="<?= base_url()?>admin/js/metisMenu.js"></script>
 
-<script src="admin/js/metisMenu.js"></script>
+<script src="<?= base_url()?>admin/vendors/count_up/jquery.waypoints.min.js"></script>
 
-<script src="admin/vendors/count_up/jquery.waypoints.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/chartlist/Chart.min.js"></script>
 
-<script src="admin/vendors/chartlist/Chart.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/count_up/jquery.counterup.min.js"></script>
 
-<script src="admin/vendors/count_up/jquery.counterup.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/niceselect/js/jquery.nice-select.min.js"></script>
 
-<script src="admin/vendors/niceselect/js/jquery.nice-select.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/owl_carousel/js/owl.carousel.min.js"></script>
 
-<script src="admin/vendors/owl_carousel/js/owl.carousel.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/datatable/js/jquery.dataTables.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/datatable/js/dataTables.responsive.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/datatable/js/dataTables.buttons.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/datatable/js/buttons.flash.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/datatable/js/jszip.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/datatable/js/pdfmake.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/datatable/js/vfs_fonts.js"></script>
+<script src="<?= base_url()?>admin/vendors/datatable/js/buttons.html5.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/datatable/js/buttons.print.min.js"></script>
 
-<script src="admin/vendors/datatable/js/jquery.dataTables.min.js"></script>
-<script src="admin/vendors/datatable/js/dataTables.responsive.min.js"></script>
-<script src="admin/vendors/datatable/js/dataTables.buttons.min.js"></script>
-<script src="admin/vendors/datatable/js/buttons.flash.min.js"></script>
-<script src="admin/vendors/datatable/js/jszip.min.js"></script>
-<script src="admin/vendors/datatable/js/pdfmake.min.js"></script>
-<script src="admin/vendors/datatable/js/vfs_fonts.js"></script>
-<script src="admin/vendors/datatable/js/buttons.html5.min.js"></script>
-<script src="admin/vendors/datatable/js/buttons.print.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/datepicker/datepicker.js"></script>
+<script src="<?= base_url()?>admin/vendors/datepicker/datepicker.en.js"></script>
+<script src="<?= base_url()?>admin/vendors/datepicker/datepicker.custom.js"></script>
+<script src="<?= base_url()?>admin/js/chart.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/chartjs/roundedBar.min.js"></script>
 
-<script src="admin/vendors/datepicker/datepicker.js"></script>
-<script src="admin/vendors/datepicker/datepicker.en.js"></script>
-<script src="admin/vendors/datepicker/datepicker.custom.js"></script>
-<script src="admin/js/chart.min.js"></script>
-<script src="admin/vendors/chartjs/roundedBar.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/progressbar/jquery.barfiller.js"></script>
 
-<script src="admin/vendors/progressbar/jquery.barfiller.js"></script>
+<script src="<?= base_url()?>admin/vendors/tagsinput/tagsinput.js"></script>
 
-<script src="admin/vendors/tagsinput/tagsinput.js"></script>
+<script src="<?= base_url()?>admin/vendors/text_editor/summernote-bs4.js"></script>
+<script src="<?= base_url()?>admin/vendors/am_chart/amcharts.js"></script>
 
-<script src="admin/vendors/text_editor/summernote-bs4.js"></script>
-<script src="admin/vendors/am_chart/amcharts.js"></script>
+<script src="<?= base_url()?>admin/vendors/scroll/perfect-scrollbar.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/scroll/scrollable-custom.js"></script>
 
-<script src="admin/vendors/scroll/perfect-scrollbar.min.js"></script>
-<script src="admin/vendors/scroll/scrollable-custom.js"></script>
+<script src="<?= base_url()?>admin/vendors/vectormap-home/vectormap-2.0.2.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/vectormap-home/vectormap-world-mill-en.js"></script>
 
-<script src="admin/vendors/vectormap-home/vectormap-2.0.2.min.js"></script>
-<script src="admin/vendors/vectormap-home/vectormap-world-mill-en.js"></script>
+<script src="<?= base_url()?>admin/vendors/apex_chart/apex-chart2.js"></script>
+<script src="<?= base_url()?>admin/vendors/apex_chart/apex_dashboard.js"></script>
+<script src="<?= base_url()?>admin/vendors/echart/echarts.min.js"></script>
+<script src="<?= base_url()?>admin/vendors/chart_am/core.js"></script>
+<script src="<?= base_url()?>admin/vendors/chart_am/charts.js"></script>
+<script src="<?= base_url()?>admin/vendors/chart_am/animated.js"></script>
+<script src="<?= base_url()?>admin/vendors/chart_am/kelly.js"></script>
+<script src="<?= base_url()?>admin/vendors/chart_am/chart-custom.js"></script>
 
-<script src="admin/vendors/apex_chart/apex-chart2.js"></script>
-<script src="admin/vendors/apex_chart/apex_dashboard.js"></script>
-<script src="admin/vendors/echart/echarts.min.js"></script>
-<script src="admin/vendors/chart_am/core.js"></script>
-<script src="admin/vendors/chart_am/charts.js"></script>
-<script src="admin/vendors/chart_am/animated.js"></script>
-<script src="admin/vendors/chart_am/kelly.js"></script>
-<script src="admin/vendors/chart_am/chart-custom.js"></script>
-
-<script src="admin/js/dashboard_init.js"></script>
-<script src="admin/js/custom.js"></script>
+<script src="<?= base_url()?>admin/js/dashboard_init.js"></script>
+<script src="<?= base_url()?>admin/js/custom.js"></script>
 </body>
-
-<!-- Mirrored from demo.dashboardpack.com/analytic-html/index_3.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Sep 2023 12:24:27 GMT -->
 </html>
