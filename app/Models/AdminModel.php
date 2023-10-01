@@ -7,13 +7,13 @@ use CodeIgniter\Model;
 class AdminModel extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'admins';
+    protected $table            = 'ecommercelogin';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['username', 'password'];
 
     // Dates
     protected $useTimestamps = false;

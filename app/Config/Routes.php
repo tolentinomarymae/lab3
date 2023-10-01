@@ -8,6 +8,7 @@ use CodeIgniter\Router\RouteCollection;
 /*$routes->get('/', 'Home::index');*/
 $routes->get('/', 'MainController::index');
 $routes->get('/shop', 'MainController::shop');
+$routes->post('/authreg', 'AdminController::authreg');
 $routes->post('/products/store', 'MainController::store');
 $routes->get('/products/:id', 'MainController@show');
 $routes->match(['post', 'get'], '/admins', 'MainController::admin');
