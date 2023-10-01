@@ -11,13 +11,13 @@
 			</div>
 			<div class="signin-form">
 				<h2 class="form-title">Log In</h2>
-				<form method="post" action="<?=base_url()?>admins" class="register-form" id="login-form">
+				<form method="POST" action="/loginauth"class="login-form" id="login-form">
 					<div class="form-group">
-						<label for="username"><i class="zmdi zmdi-account material-icons-name"></i></label>
+						<label for="username"><i class="fa-solid fa-user"></i></label>
 						<input type="text" name="username" id="username" placeholder="Username" />
 					</div>
 					<div class="form-group">
-						<label for="password"><i class="zmdi zmdi-lock"></i></label>
+						<label for="password"><i class="fa-solid fa-lock"></i></label>
 						<input type="password" name="password" id="password" placeholder="Password" />
 					</div>
 					<div class="form-group">
@@ -26,16 +26,10 @@
 					</div>
 					<div class="form-group form-button">
 						<input type="submit" name="signin" id="signin" class="form-submit" value="Log in" />
+						<br><a href="/register">Don't have an account? Register</a>
 					</div>
 				</form>
-				<div class="social-login">
-					<span class="social-label">Or login with</span>
-					<ul class="socials">
-						<li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
-						<li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
-						<li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
-					</ul>
-				</div>
+				
 			</div>
 		</div>
 	</div>

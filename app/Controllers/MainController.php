@@ -27,11 +27,11 @@ class MainController extends BaseController
         ];
         return view ('products', $data);
     }
-    public function admin()
+   /* public function admin()
     {
         return view('admin/index', ['products' => $this->product->findAll()]);
        return view ('admin/index');
-    }
+    }*/
    /* public function show($id)
 {
     $product = MainModel::find($id);
@@ -67,11 +67,8 @@ class MainController extends BaseController
         return view('login/index');
     }
 }
-
-    public function register()
-    {
-        return view('register/register');
-    }*/
+*/
+ 
     public function showDataTable()
 {
     $data = [

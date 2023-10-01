@@ -14,12 +14,12 @@
                     <form method="POST" action="/authreg"class="register-form" id="register-form">
                         <div class="form-group">
                             <label for="username"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                            <input type="text" name="username" id="username" placeholder="Username" />
+                            <input type="text" name="username" id="username" placeholder="Username (minimum of 8)" />
                         </div>
                         
                         <div class="form-group">
                             <label for="password"><i class="zmdi zmdi-lock"></i></label>
-                            <input type="password" name="password" id="password" placeholder="Password" />
+                            <input type="password" name="password" id="password" placeholder="Password (minimum of 8)" />
                         </div>
                         <div class="form-group">
                             <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>

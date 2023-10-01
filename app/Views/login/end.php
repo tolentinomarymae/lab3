@@ -1,6 +1,7 @@
 
-<script src="loginRegister/vendor/jquery/jquery.min.js"></script>
-<script src="loginRegister/js/main.js"></script>
+<script src="<?= base_url() ?>loginRegister/vendor/jquery/jquery.min.js"></script>
+<script src="<?= base_url() ?>loginRegister/js/main.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 <script>
