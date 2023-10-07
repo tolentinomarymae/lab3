@@ -54,317 +54,11 @@
 </div>
 </div>
 <ul id="sidebar_menu">
-<li>
-<a href="index.html" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/dashboard.svg" alt>
-</div>
-<div class="nav_title">
-<span>Analytic</span>
-</div>
-</a>
-</li>
-<li>
-<a href="index_2.html" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/2.svg" alt>
-</div>
-<div class="nav_title">
-<span>Default </span>
-</div>
-</a>
-</li>
-<li>
-<a href="index_3.html" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/3.svg" alt>
-</div>
-<div class="nav_title">
-<span>Dark </span>
-</div>
-</a>
-</li>
-<h4 class="menu-text"><span>CUSTOM</span> <i class="fas fa-ellipsis-h"></i> </h4>
-<li class>
-<a class="has-arrow" href="#" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/5.svg" alt>
-</div>
-<div class="nav_title">
-<span>Application </span>
-</div>
-</a>
-<ul>
-<li><a href="editor.html">editor</a></li>
-<li><a href="mail_box.html">Mail Box</a></li>
-<li><a href="chat.html">Chat</a></li>
-<li><a href="faq.html">FAQ</a></li>
-</ul>
-</li>
-<li class>
-<a class="has-arrow" href="#" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/16.svg" alt>
-</div>
-<div class="nav_title">
-<span>Pages</span>
-</div>
-</a>
-<ul>
-<li><a href="login.html">Login</a></li>
-<li><a href="resister.html">Register</a></li>
-<li><a href="error_400.html">Error 404</a></li>
-<li><a href="error_500.html">Error 500</a></li>
-<li><a href="forgot_pass.html">Forgot Password</a></li>
-<li><a href="gallery.html">Gallery</a></li>
-</ul>
-</li>
-<h4 class="menu-text"><span>LAYOUT</span> <i class="fas fa-ellipsis-h"></i> </h4>
-<li class>
-<a class="has-arrow" href="#" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/4.svg" alt>
-</div>
-<div class="nav_title">
-<span>Themes</span>
-</div>
-</a>
-<ul>
-<li><a href="dark_sidebar.html">Dark Sidebar</a></li>
-<li><a href="light_sidebar.html">light Sidebar</a></li>
-</ul>
-</li>
-<li class>
-<a class="has-arrow" href="#" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/16.svg" alt>
-</div>
-<div class="nav_title">
-<span>General</span>
-</div>
-</a>
-<ul>
-<li><a href="Minimized_Aside.html">Minimized Aside</a></li>
-<li><a href="empty_page.html">Empty page</a></li>
-<li><a href="fixed_footer.html">Fixed Footer</a></li>
-</ul>
-</li>
-<li>
-<a href="Builder.html" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/2.svg" alt>
-</div>
-<div class="nav_title">
-<span>Builder </span>
-</div>
-</a>
-</li>
-<h4 class="menu-text"><span>Elements</span> <i class="fas fa-ellipsis-h"></i> </h4>
-<li class>
-<a href="invoice.html" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/6.svg" alt>
-</div>
-<div class="nav_title">
-<span>Invoice</span>
-</div>
-</a>
-</li>
-<li class>
-<a class="has-arrow" href="#" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/4.svg" alt>
-</div>
-<div class="nav_title">
-<span>forms</span>
-</div>
-</a>
-<ul>
-<li><a href="Basic_Elements.html">Basic Elements</a></li>
-<li><a href="Groups.html">Groups</a></li>
-<li><a href="Max_Length.html">Max Length</a></li>
-<li><a href="Layouts.html">Layouts</a></li>
-</ul>
-</li>
-<li class>
-<a href="Board.html" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/5.svg" alt>
-</div>
-<div class="nav_title">
-<span>Board</span>
-</div>
-</a>
-</li>
-<li class>
-<a href="calender.html" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/7.svg" alt>
-</div>
-<div class="nav_title">
-<span>Calander</span>
-</div>
-</a>
-</li>
-<li class>
-<a class="has-arrow" href="#" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/8.svg" alt>
-</div>
-<div class="nav_title">
-<span>Products</span>
-</div>
-</a>
-<ul>
-<li><a href="Products.html">Products</a></li>
-<li><a href="Product_Details.html">Product Details</a></li>
-<li><a href="Cart.html">Cart</a></li>
-<li><a href="Checkout.html">Checkout</a></li>
-</ul>
-</li>
-<li class>
-<a class="has-arrow" href="#" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/9.svg" alt>
-</div>
-<div class="nav_title">
-<span>Icons</span>
-</div>
-</a>
-<ul>
-<li><a href="Fontawesome_Icon.html">Fontawesome Icon</a></li>
-<li><a href="themefy_icon.html">themefy icon</a></li>
-</ul>
-</li>
-<h4 class="menu-text"><span>Features</span> <i class="fas fa-ellipsis-h"></i> </h4>
-<li class>
-<a class="has-arrow" href="#" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/8.svg" alt>
-</div>
-<div class="nav_title">
-<span>Animations</span>
-</div>
-</a>
-<ul>
-<li><a href="wow_animation.html">Animate</a></li>
-<li><a href="Scroll_Reveal.html">Scroll Reveal</a></li>
-<li><a href="tilt.html">Tilt Animation</a></li>
-</ul>
-</li>
-<li class>
-<a class="has-arrow" href="#" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/9.svg" alt>
-</div>
-<div class="nav_title">
-<span>Components</span>
-</div>
-</a>
-<ul>
-<li><a href="accordion.html">Accordions</a></li>
-<li><a href="Scrollable.html">Scrollable</a></li>
-<li><a href="notification.html">Notifications</a></li>
-<li><a href="carousel.html">Carousel</a></li>
-<li><a href="Pagination.html">Pagination</a></li>
-</ul>
-</li>
-<li class>
-<a class="has-arrow" href="#" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/11.svg" alt>
-</div>
-<div class="nav_title">
-<span>Table</span>
-</div>
-</a>
-<ul>
-<li><a href="data_table.html">Data Tables</a></li>
-<li><a href="bootstrap_table.html">Bootstrap</a></li>
-</ul>
-</li>
-<li class>
-<a class="has-arrow" href="#" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/12.svg" alt>
-</div>
-<div class="nav_title">
-<span>Cards</span>
-</div>
-</a>
-<ul>
-<li><a href="basic_card.html">Basic Card</a></li>
-<li><a href="theme_card.html">Theme Card</a></li>
-<li><a href="dargable_card.html">Draggable Card</a></li>
-</ul>
-</li>
-<li class>
-<a class="has-arrow" href="#" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/12.svg" alt>
-</div>
-<div class="nav_title">
-<span>Charts</span>
-</div>
-</a>
-<ul>
-<li><a href="chartjs.html">ChartJS</a></li>
-<li><a href="apex_chart.html">Apex Charts</a></li>
-<li><a href="chart_sparkline.html">Chart sparkline</a></li>
-<li><a href="am_chart.html">am-charts</a></li>
-<li><a href="nvd3_charts.html">nvd3 charts.</a></li>
-</ul>
-</li>
-<li class>
-<a class="has-arrow" href="#" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/3.svg" alt>
-</div>
-<div class="nav_title">
-<span>UI Kits </span>
-</div>
-</a>
-<ul>
-<li><a href="colors.html">colors</a></li>
-<li><a href="Alerts.html">Alerts</a></li>
-<li><a href="buttons.html">Buttons</a></li>
-<li><a href="modal.html">modal</a></li>
-<li><a href="dropdown.html">Droopdowns</a></li>
-<li><a href="Badges.html">Badges</a></li>
-<li><a href="Loading_Indicators.html">Loading Indicators</a></li>
-<li><a href="State_color.html">State color</a></li>
-<li><a href="typography.html">Typography</a></li>
-<li><a href="datepicker.html">Date Picker</a></li>
-</ul>
-</li>
-<li class>
-<a class="has-arrow" href="#" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/14.svg" alt>
-</div>
-<div class="nav_title">
-<span>Widgets</span>
-</div>
-</a>
-<ul>
-<li><a href="chart_box_1.html">Chart Boxes 1</a></li>
-<li><a href="profilebox.html">Profile Box</a></li>
-</ul>
-</li>
-<li class>
-<a class="has-arrow" href="#" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="<?= base_url()?>admin/img/menu-icon/15.svg" alt>
-</div>
-<div class="nav_title">
-<span>Maps</span>
-</div>
-</a>
-<ul>
-<li><a href="mapjs.html">Maps JS</a></li>
-<li><a href="vector_map.html">Vector Maps</a></li>
-</ul>
-</li>
+
+
+
+
+
 </ul>
 </nav>
 
@@ -501,8 +195,8 @@ action
 </div>
 <!-- Add Product Modal -->
 <div class="modal fade" id="addProductModal" role="dialog" aria-labelledby="addProductModalLabel" aria-hidden="true" >
-    <br><br><br><br><br>
-  <div class="modal-dialog"style="z-index: 10000;">
+    <br>
+  <div class="modal-dialog modal-dialog-centered"style="z-index: 10000;">
   
     <div class="modal-content">
       <div class="modal-header">
@@ -510,7 +204,7 @@ action
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-      <form action="/products/store" method="post">
+      <form action="/product" method="post">
           <div class="mb-3">
             <label for="name" class="form-label">Name</label>
             <input type="text" name="name" id="name" class="form-control">
@@ -549,6 +243,44 @@ action
   </div>
 </div>
 
+<!-- edit_product_modal.php -->
+
+<div class="modal fade" id="editProductModal" tabindex="-1" aria-labelledby="editProductModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editProductModalLabel">Edit Product</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="/products/update" method="post">
+                    <input type="hidden" name="product_id" id="editProductId">
+                    <div class="mb-3">
+                        <label for="editName" class="form-label">Name</label>
+                        <input type="text" name="name" id="editName" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="editDesc" class="form-label">Description</label>
+                        <input type="text" name="description" id="editDesc" class="form-control">
+                    </div> <div class="mb-3">
+                        <label for="editPrice" class="form-label">Price</label>
+                        <input type="number" name="price" id="editPrice" class="form-control">
+                    </div> <div class="mb-3">
+                        <label for="editImage" class="form-label">Image</label>
+                        <input type="file" name="image" id="editImage" class="form-control">
+                    </div> <div class="mb-3">
+                        <label for="editCat" class="form-label">Category</label>
+                        <input type="text" name="category" id="editCat" class="form-control">
+                    </div> <div class="mb-3">
+                        <label for="editQuan" class="form-label">Quantity</label>
+                        <input type="number" name="quantity" id="editQuan" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 </div>
 </div>
@@ -562,6 +294,7 @@ action
                 <th scope="col">Price</th>
                 <th scope="col">Category</th>
                 <th scope="col">Quantity</th>
+                <th scope="col">Action</th>
             </tr>
         </thead>
         <tbody>
@@ -573,6 +306,18 @@ action
                     <td><?= $product['price']; ?></td>
                     <td><?= $product['category']; ?></td>
                     <td><?= $product['quantity']; ?></td>
+                    <td>
+                    <button type="button" class="btn btn-primary" onclick="openEditModal(
+                        <?= $product['id']; ?>,
+                        '<?= $product['name']; ?>',
+                        '<?= $product['description']; ?>',
+                        <?= $product['price']; ?>,
+                        '<?= $product['category']; ?>',
+                        <?= $product['quantity']; ?>
+                    )">Edit</button>
+
+<button type="button" class="btn btn-danger" onclick="deleteProduct(<?= $product['id']; ?>)">Delete</button>
+                    </td>
                 </tr>
             <?php endforeach; ?>
         </tbody>
@@ -587,6 +332,46 @@ action
 </div>
 </div>
 </div>
+
+
+<script>
+    // Function to open the edit modal and populate it with product data
+    function openEditModal(productId, name, description, price, category, quantity) {
+        // Set the product ID and name in the modal
+        document.getElementById('editProductId').value = productId;
+        document.getElementById('editName').value = name;
+
+        // Set other fields in the modal
+        document.getElementById('editDesc').value = description;
+        document.getElementById('editPrice').value = price;
+        document.getElementById('editCat').value = category;
+        document.getElementById('editQuan').value = quantity;
+
+        // Open the modal
+        $('#editProductModal').modal('show');
+    }
+
+    // Function to delete a product
+    function deleteProduct(productId) {
+        // Confirm with the user before proceeding
+        if (confirm("Are you sure you want to delete this product?")) {
+            // Send an AJAX request to delete the product
+            $.ajax({
+                type: 'POST',
+                url: '/admins/delete/' + productId, // Update the URL as needed
+                success: function (response) {
+                    // Reload the page or update the table as needed
+                    window.location.reload(); // Reload the page for simplicity
+                },
+                error: function (error) {
+                    console.error('Error:', error);
+                    // Handle errors if needed
+                }
+            });
+        }
+    }
+</script>
+
 <script>
 $(document).ready(function() {
   $('#addProductModal').on('show.bs.modal', function() {
@@ -595,6 +380,9 @@ $(document).ready(function() {
     $('#description').val('');
     $('#price').val('');
     $('#image').val('');
+    $('#price').val('');
+    $('#category').val('');
+    $('#quantity').val('');
   });
 });
 </script>

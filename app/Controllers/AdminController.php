@@ -4,19 +4,21 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\AdminModel;
+use App\Models\MainModel;
 
 class AdminController extends BaseController
 {
    
     private $product;
+    
     public function __construct()
     {
         $this->product = new \App\Models\MainModel();
     }
     public function admin()
     {
+        
         return view('admin/index', ['products' => $this->product->findAll()]);
-        return view('admin/index');
     }
     public function register(){
         helper(['form']);
@@ -85,5 +87,6 @@ class AdminController extends BaseController
             }
         }
     }
+   
     
 }
